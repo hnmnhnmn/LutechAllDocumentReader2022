@@ -468,15 +468,18 @@ input[type="button"]:hover {
 }
 
 #goals {
-  background-image: url(../assets/images/p3-yellow.png);
+  /* background-image: url(../assets/images/p3-green.png); */
+  background-color: #21a464;
 }
 
 #ideas {
-  background-image: url(../assets/images/p3-blue.png);
+  /* background-image: url(../assets/images/p3-blue.png); */
+  background-color: #bae9ff;
 }
 
 #decisions {
-  background-image: url(../assets/images/p3-green.png);
+  /* background-image: url(../assets/images/p3-green.png); */
+  background-color: #e66e6c;
 }
 
 .separator {
@@ -512,17 +515,17 @@ input[type="button"]:hover {
 }
 
 #goals-text {
-  color: #ffdf00;
+  color: #21a464;
   font-weight: bold;
 }
 
 #ideas-text {
-  color: #65d6ff;
+  color: #bae9ff;
   font-weight: bold;
 }
 
 #decisions-text {
-  color: #bafb00;
+  color: #e66e6c;
   font-weight: bold;
 }
 
