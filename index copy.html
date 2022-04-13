@@ -37,9 +37,7 @@
       sizes="180x180"
       href="assets/images/apple-touch-icon.png"
     />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
     <script src="scripts/modal.js"></script>
     <script src="scripts/hide-arrow.js"></script>
 
@@ -71,8 +69,26 @@
             >
               <img alt="Download it on google play" src="assets/vectors/getItOnGooglePlay.svg"
             /></a>
-            <a id="play-video" class="popup-youtube"  href="https://www.youtube.com/watch?v=KSxje-d5v9o"> <img src="assets/vectors/play.svg"/></a>
+            <!-- <a id="play-video" onclick="showVideo()">
+              <img src="assets/vectors/play.svg"
+            /></a> -->
           </div>
+        </div>
+      </div>
+
+      <div id="awards">
+        <div
+          onclick="window.open('https://play.google.com/store/apps/details?id=com.docreader.readerdocument', '_blank');"
+          id="apple"
+        >
+          <!-- <img src="assets/vectors/apple.svg" /> -->
+          <img alt="google play icon" src="assets/vectors/googlePlayIcon.svg" />
+        </div>
+        <div
+          
+          id="product-hunt"
+        >
+          <img alt="Product hunt site" src="assets/vectors/product-hunt.svg" />
         </div>
       </div>
 
@@ -86,31 +102,56 @@
             
           </p>
         </div>
-       <a href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument"> <img alt="A men holding phone showing app" src="assets/images/menHoldingPhone.webp" />  </a>
-      </div>  
-      
+        <img alt="A men holding phone showing app" src="assets/images/menHoldingPhone.webp" />
+      </div>
+
       <div class="cards-container">
-      
-        <div hr class="card" href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument" data-aos="zoom-out-up">
-          <a href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument"> <img alt="All type mode"  src="assets/images/all.webp" /> </a> 
+        <div hr class="card" data-aos="zoom-out-up">
+          <img alt="All type mode" src="assets/images/all.webp" />
           <p id="goals-text">All Type Documents</p>
         </div>
-     
         <div class="card" data-aos="zoom-out-up" data-aos-delay="150">  
-          <a href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument" > <img alt="read pdf"  src="assets/images/pdf.png" /></a>
+          <img alt="read pdf" src="assets/images/pdf.png" />
           <p id="goals-text">PDF </p>
         </div>
         <div class="card" data-aos="zoom-out-up">
-          <a href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument"> <img alt="read word" src="assets/images/word.png" /></a> 
+          <img alt="read word" src="assets/images/word.png" />
           <p id="goals-text">Word</p>
         </div>
         <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
-          <a href="https://play.google.com/store/apps/details?id=com.docreader.readerdocument"><img alt="read excel" src="assets/images/excel.png" /> </a>
+          <img alt="read excel" src="assets/images/excel.png" />
           <p id="goals-text">Excel</p>
         </div>
       </div>
 
       <span class="separator"></span>
+
+      <div class="section-intro" id="ideas">
+        <div>
+          <h1>The Features</h1>
+          <p>Save your time by using one app to read all files</p>
+        </div>
+        <img alt="Features" src="assets/images/ABCD.png" />
+      </div>
+
+      <div class="cards-container" id="ideas-cards">
+        <div class="card" data-aos="zoom-out-up">
+          <img alt="Go to page" src="assets/images/goto.png" />
+          <p id="ideas-text">Quickly jump to page</p>
+        </div>
+        <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+          <img alt="share to friend" src="assets/images/share.png" />
+          <p id="ideas-text">Freely sharing to your friend</p>
+        </div>
+        <div class="card" data-aos="zoom-out-up">
+          <img alt="Screen shot" src="assets/images/snapshot.png" />
+          <p id="ideas-text">Easily take a screenshot </p>
+        </div>
+        <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+          <img alt="Mark the favourite" src="assets/images/favourite.png" />
+          <p id="ideas-text">Mark the important one</p>
+        </div>
+      </div>
 
     <!-- try some thing here -->
       
@@ -237,8 +278,6 @@
         </form>
       </div>
     </div>
-
-    
     <!-- <div class="overlay" id="video-modal">
       <div class="modal-content" id="video">
         <div class="video-container">
@@ -253,19 +292,5 @@
         <input type="button" id="close" onclick="hideVideo()" value="Close" />
       </div> -->
     </div>
-    <script>
-      $(function() {
-          $('.popup-youtube, .popup-vimeo').magnificPopup({
-              disableOn: 700,
-              type: 'iframe',
-              mainClass: 'mfp-fade',
-              removalDelay: 160,
-              preloader: false,
-              fixedContentPos: false,
-              autoPlay:true
-          });
-      });
-      
-      </script>
   </body>
 </html>
