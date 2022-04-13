@@ -200,20 +200,6 @@ p {
   font-size: 16px;
 }
 
-a,
-input {
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-}
-
-a:hover {
-  -webkit-transform: scale(0.92);
-  transform: scale(0.92);
-}
-
 input[type="submit"]:hover,
 input[type="button"]:hover {
   -webkit-transform: scale(0.95);
@@ -313,7 +299,7 @@ input[type="button"]:hover {
 }
 
 #hero #buttons #play-video {
-  height: 54px;
+  height: 43px;
   width: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -341,7 +327,7 @@ input[type="button"]:hover {
 }
 
 #hero #buttons #play-video:hover:after {
-  content: "1 min";
+  content: "0:18";
 }
 
 #awards {
@@ -387,6 +373,8 @@ input[type="button"]:hover {
 #awards #product-hunt,
 #awards #apple {
   cursor: pointer;
+  align-items: center;
+  text-align: center;
 }
 
 #awards img {
@@ -440,6 +428,10 @@ input[type="button"]:hover {
 .section-intro div {
   padding: 60px 80px;
   width: 500px;
+  /* height: 400px; */
+}
+.section-intro img {
+  height: 400px;
 }
 
 @media screen and (max-width: 700px) {
@@ -452,6 +444,12 @@ input[type="button"]:hover {
   border-radius: 0 24px 24px 0;
   width: 500px;
   height: 100%;
+}
+
+.section-intro a img {
+  height: 100%;
+  /* margin: 5px 5px 5px 0; */
+  margin-bottom: -4px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -966,3 +964,4 @@ input[type="button"]:hover {
   }
 }
 /*# sourceMappingURL=main.css.map */
+/* try some */
