@@ -290,17 +290,18 @@ input[type="button"]:hover {
 }
 
 #hero #buttons #download {
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
 
 #hero #buttons #download img {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 #hero #buttons #play-video {
   height: 43px;
   width: 110px;
+  /* color: #e66e6c; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,7 +311,7 @@ input[type="button"]:hover {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: 25px;
   background-color: rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.7);
   border-radius: 8px;
@@ -321,9 +322,15 @@ input[type="button"]:hover {
   margin-right: 10px;
   opacity: 0.8;
 }
+#hero #buttons a {
+  font-weight: bold;
+  /* color: #121416; */
+  /* background-color: #121416; */
+}
 
 #hero #buttons #play-video:after {
-  content: "Video";
+  content: "VIDEO";
+  color: #cdbe78;
 }
 
 #hero #buttons #play-video:hover:after {
